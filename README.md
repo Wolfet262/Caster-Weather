@@ -1,8 +1,7 @@
 # Description
 Caster is a weather app that allows user to accurately search for the five day forecast anywere in the world. This product gives instantaneous feedback on a search to allow for quick info grabbing and less user time wasted.
-https://i.imgur.com/zSAUt99.jpg
-
-! [Working Product] https://i.imgur.com/3ns7rc7.jpg
+! [Original Wireframes] (https://i.imgur.com/zSAUt99.jpg)
+! [Working Product] (https://i.imgur.com/3ns7rc7.jpg)
 
 ## Technologies Used 
 * React
