@@ -14,7 +14,7 @@ const WeatherCard = ({ highTemp, lowTemp, date, description, icon }) => {
 
   if (icon === "t01d" || icon === "t02d" || icon === "t03d" || icon === "t04d" || icon === "t05d") {
     pic =  Thunder 
-    console.log(icon)
+
   } else if (
     icon === "d01d" ||
     icon === "d02d" ||
@@ -54,7 +54,7 @@ const WeatherCard = ({ highTemp, lowTemp, date, description, icon }) => {
     pic =  Wind ;
   }
   
-console.log(pic, icon)
+
   return (
     <Card style={{ width: "19%" }}>
       <Card.Img variant="top" src={ pic } />
