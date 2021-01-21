@@ -11,22 +11,24 @@
 }
 
 body {
-  background-color: rgb(211, 240, 240);
+  background-color: #83C5BE;
 }
 
 .feature {
-  background-color: rgba(225, 165, 165, 0.742);
+  background-color: #FFDDD2;
 }
 
 .puns {
-  background-color: rgb(96, 152, 91);
+  background-color: #E29578;
 }
 
 .about {
-  background-color: lightslategray;
+  background-color: #EDF6F9;
 }
 
-
+a {
+  color: black;
+}
 
 .container {
   max-width: 100%;
@@ -41,6 +43,7 @@ body {
 
 .card {
   margin: 1px;
+  background-image: linear-gradient(grey, rgb(160, 160, 160));
 }
 
 .card-img-top {
@@ -54,4 +57,12 @@ body {
 
 .list-group-item {
   padding: .75rem .5rem;
+}
+
+.btn-primary{
+  background-color: #006D77;
+}
+
+.bg-dark {
+  background-color: #254E70;
 }
