@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# Description
+Caster is a weather app that allows user to accurately search for the five day forecast anywere in the world. This product gives instantaneous feedback on a search to allow for quick info grabbing and less user time wasted.
+! [Original Wireframes] (https://i.imgur.com/zSAUt99.jpg)
+! [Working Product] (https://i.imgur.com/3ns7rc7.jpg)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies Used 
+* React
+* react-bootstrap
+* react-router-dom
+* api calls
 
-## Available Scripts
+## Install Instructions 
+To download this repo, Fork and clone the repository into your desired directory and install any dependencies with ```npm i```. Then in your CLI run ```npm start``` if you are using Yarn, then replace the ```npm``` with ```yarn start```. Open your code editor inside the directory and you now have the full program!
 
-In the project directory, you can run:
+### Don't have time to download?
+Follow this link to 
+https://caster-weather.herokuapp.com/
 
-### `npm start`
+## User Stories 
+As a weather enthusiast, I want to be able to see the future forecast for my city.
+As someone about to go on vacation, I want to be able to search my destination and get the high and low temps for the city i'll be staying in.
+As someone who wants to just check the weather and move on I want quick results at anytime during the day.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## If you want to help out
+Submit a pull request or and issue with any bug fixes/ improvements you might find! I love to hear any and all feedback.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Unsolved issues 
+When routing to another page I could not get the page to render exclusively while using a boostrap navbar import.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Notes
+I would like to contiue on with this app and add in many more functionalities in the future! 
+Add in:
+* User login and save a favorite city to be the default for future logins
 
-### `npm run eject`
+* Drop down menus for multiple units of measurement and how days to be shown.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
